@@ -17975,3 +17975,19 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
       padding-right: 1.675rem; }
       .bootstrap-tagsinput .badge:hover [data-role="remove"] {
         opacity: 1; }
+
+.bg-dark-ylytic {
+  background-color: #014040 !important;
+  border-color: #014040 !important; }
+
+.bg-gradient-ylytic-primary {
+  background: linear-gradient(50deg, #1ABAB1 0, #1ABAB1 100%) !important; }
+
+.bg-ylytic {
+  background-color: #1ABAB1 !important; }
+
+.text-ylytic {
+  color: #1ABAB1 !important; }
+
+.text-dark-ylytic {
+  color: #014040 !important; }
