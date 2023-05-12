@@ -17991,3 +17991,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .text-dark-ylytic {
   color: #014040 !important; }
+
+  .h10{
+    height: 10rem;
+  }
