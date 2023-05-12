@@ -18017,3 +18017,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   .aspect-video{
     aspect-ratio: 16/9;
   }
+  .w-60{
+    width: 60%;
+  }
+  .w-40{
+    width: 40%;
+  }
