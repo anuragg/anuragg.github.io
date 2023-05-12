@@ -17995,3 +17995,25 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   .h10{
     height: 10rem;
   }
+  .bg-contain{
+    background-size: contain;
+  }
+  .responsive-flex{
+    flex-direction: row;
+  }
+  @media (max-width: 576px) {
+
+    .responsive-flex{
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+  .flex{
+    display: flex;
+  }
+  .gap-3{
+    gap: 1.5rem;
+  }
+  .aspect-video{
+    aspect-ratio: 16/9;
+  }
