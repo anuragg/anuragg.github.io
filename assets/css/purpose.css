@@ -18001,13 +18001,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   .responsive-flex{
     flex-direction: row;
   }
-  @media (max-width: 576px) {
-
-    .responsive-flex{
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-  }
   .flex{
     display: flex;
   }
@@ -18022,4 +18015,25 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   }
   .w-40{
     width: 40%;
+  }
+  .hero-section{
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  @media (max-width: 576px) {
+
+    .responsive-flex{
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .hero-section{
+      flex-direction: column;
+    }
+    .w-60{
+      width: 100%;
+    }
+    .w-40{
+      width: 90%;
+    }
   }
